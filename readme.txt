@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: mce, editor, underline, justify, tinyMCE, 4.7, wysiwyg, visual editor
 Requires at least: 4.7
 Tested up to: 4.7
-Stable tag: 0.1
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
@@ -55,6 +55,9 @@ Just go to Settings -> Writing and select the option you want under "Editor styl
 
 
 == Changelog ==
+
+= 0.1.1 - 11/10/2016 =
+* Fix an issue hidding Editor content.
 
 = 0.1 - 11/06/2016 =
 * First release.

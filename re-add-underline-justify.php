@@ -4,7 +4,7 @@
  * Plugin URI: http://b-website.com/re-add-text-underline-and-justify
  * Description: This very simple plugin re-adds the Editor text underline, text justify and rearrange buttons as they were before WordPress 4.7.
  * Author: Brice Capobianco
- * Version: 0.1
+ * Version: 0.1.1
  * Author URI: http:// b-website.com/
  * Domain Path: /langs
  * Text Domain: re-add-underline-justify
@@ -142,7 +142,7 @@ function ratb_buttons_lines_tiny_mce(){
 	//Else, do nothing... use the default editor style
 		
 }	 
-add_filter( 'the_editor_content', 'ratb_buttons_lines_tiny_mce', 9 );
+add_action( 'admin_head', 'ratb_buttons_lines_tiny_mce' );
 
 
 /***************************************************************
