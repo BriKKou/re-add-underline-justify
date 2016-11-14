@@ -4,7 +4,7 @@
  * Plugin URI: http://b-website.com/re-add-text-underline-and-justify
  * Description: This very simple plugin re-adds the Editor text underline, text justify and rearrange buttons as they were before WordPress 4.7.
  * Author: Brice Capobianco
- * Version: 0.1.1
+ * Version: 0.1.2
  * Author URI: http:// b-website.com/
  * Domain Path: /langs
  * Text Domain: re-add-underline-justify
@@ -130,19 +130,19 @@ function ratb_buttons_lines_tiny_mce(){
 	// Conditionnal MCE display
 	if ( isset( $options['ratb_mce_style'] ) && $options['ratb_mce_style'] == 2 ) {
 		
-		add_filter( 'mce_buttons', 'ratb_tiny_mce_buttons' );
-		add_filter( 'mce_buttons_2', 'ratb_tiny_mce_buttons_2' );	
+		add_filter( 'mce_buttons', 'ratb_tiny_mce_buttons', 5 );
+		add_filter( 'mce_buttons_2', 'ratb_tiny_mce_buttons_2', 5 );	
 		
 	} else if ( isset( $options['ratb_mce_style'] ) && $options['ratb_mce_style'] == 3 ) {
 		
-		add_filter( 'mce_buttons', 'ratb_tiny_mce_buttons_rearrange' );
-		add_filter( 'mce_buttons_2', 'ratb_tiny_mce_buttons_2_rearrange' );		
+		add_filter( 'mce_buttons', 'ratb_tiny_mce_buttons_rearrange', 5 );
+		add_filter( 'mce_buttons_2', 'ratb_tiny_mce_buttons_2_rearrange', 5 );		
 		
 	} 
 	//Else, do nothing... use the default editor style
 		
 }	 
-add_action( 'admin_head', 'ratb_buttons_lines_tiny_mce' );
+add_action( 'admin_head', 'ratb_buttons_lines_tiny_mce', 5 );
 
 
 /***************************************************************
