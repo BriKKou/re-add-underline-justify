@@ -4,7 +4,7 @@
  * Plugin URI: https://www.b-website.com/re-add-text-underline-and-justify
  * Description: This very simple plugin re-adds the Editor text underline, text justify and rearrange buttons as they were before WordPress 4.7.
  * Author: Brice Capobianco
- * Version: 0.1.3
+ * Version: 0.1.4
  * Author URI: https://www.b-website.com/
  * Domain Path: /langs
  * Text Domain: re-add-underline-justify
@@ -43,8 +43,8 @@ if ( !defined( 'ABSPATH' ) ) {
 function ratb_meta_links( $links, $file ) {
 	
 	if ( $file === 're-add-underline-justify/re-add-underline-justify.php' ) {
-		$paypalDonate = 'https:// www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7Z6YVM63739Y8';
-		$links[] = '<a href="http:// b-website.com/category/plugins" target="_blank" title="' . __( 'More b*web Plugins', 'simple-revisions-delete' ) . '">'. __( 'More b*web Plugins', 'simple-revisions-delete' ) .'</a>';
+		$paypalDonate = 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7Z6YVM63739Y8';
+		$links[] = '<a href="https://www.b-website.com/category/plugins" target="_blank" title="' . __( 'More b*web Plugins', 'simple-revisions-delete' ) . '">'. __( 'More b*web Plugins', 'simple-revisions-delete' ) .'</a>';
 		$links[] = '<a href="' . $paypalDonate . '" target="_blank" title="' . __( 'Donate to this plugin &#187;' ) . '"><strong>' . __( 'Donate to this plugin &#187;' ) . '</strong></a>';
 	}
 	return $links;

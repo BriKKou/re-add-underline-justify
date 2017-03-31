@@ -3,8 +3,8 @@ Contributors: briKou
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7Z6YVM63739Y8
 Tags: mce, editor, underline, justify, tinyMCE, 4.7, wysiwyg, visual editor
 Requires at least: 4.7
-Tested up to: 4.7
-Stable tag: 0.1.3
+Tested up to: 4.7.3
+Stable tag: 0.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
@@ -60,6 +60,10 @@ Just go to Settings -> Writing and select the option you want under "Editor styl
 
 
 == Changelog ==
+
+= 0.1.4 - 03/31/2017 =
+* Tested on WP 4.7.3 with success!
+* Fix broken links in plugins meta
 
 = 0.1.3 - 01/14/2016 =
 * Added the fourth option to only re-add justify button (push methode)
