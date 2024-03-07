@@ -57,7 +57,7 @@ Just go to Settings -> Writing and select the option you want under "Editor styl
 
 == Changelog ==
 
-= 0.4 - 2024/03/07 =
+= 0.4.1 - 2024/03/07 =
 * Tested on WP 6.4.3 with success!
 
 = 0.4 - 2022/10/24 =
