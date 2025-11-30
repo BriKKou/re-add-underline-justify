@@ -4,7 +4,7 @@
  * Plugin URI: https://www.b-website.com/re-add-text-underline-and-justify
  * Description: Re-adds the Editor text underline & justify buttons in the WYSIWYG removed in WordPress 4.7. Works with Classic Editor, ACF and Gutenberg.
  * Author: Brice Capobianco
- * Version: 0.4.1
+ * Version: 0.4.2
  * Author URI: https://www.b-website.com/
  * Domain Path: /langs
  * Text Domain: re-add-underline-justify

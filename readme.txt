@@ -3,15 +3,16 @@ Contributors: briKou
 Donate link: https://www.paypal.me/BriceCapobianco
 Tags: editor, underline, justify, wysiwyg, gutenberg, ACF
 Requires at least: 4.7
-Tested up to: 6.4.3
+Tested up to: 6.9
 Requires PHP: 5.5.12
-Stable tag: 0.4.1
+Stable tag: 0.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+This tiny plugin re-adds the Editor text underline & text justify buttons in the WYSIWYG removed in WordPress 4.7.0
  
 == Description ==
 
-**This tiny plugin re-adds the Editor text underline & text justify buttons in the WYSIWYG removed in WordPress 4.7. It works well with the [Classic Editor](https://fr.wordpress.org/plugins/classic-editor/) plugin, [Advanced Custom Fields](https://fr.wordpress.org/plugins/advanced-custom-fields/) (Free & Pro) and is also compatible with the Gutenberg's "Classic" bloc.**
+**Works well with the [Classic Editor](https://fr.wordpress.org/plugins/classic-editor/) plugin, [Advanced Custom Fields](https://fr.wordpress.org/plugins/advanced-custom-fields/) (Free & Pro) and is also compatible with the Gutenberg's "Classic" bloc.**
 
 In WordPress 4.7, the core developper team decided to make various changes in the editor (TinyMce WYSIWYG), including removing the **underline and justify buttons** and rearranging some of the toolbar buttons.
 If you don't want to change the way you edit your content and/or don't want to confuse your customers with a new contribution interface, this very lightweight plugin will set the editor style back to its previous state (like in WordPress 4.6 and above versions).
@@ -56,6 +57,10 @@ Just go to Settings -> Writing and select the option you want under "Editor styl
 
 
 == Changelog ==
+
+= 0.4.2 - 2025/11/30 =
+* Tested on WP 6.9 with success!
+* Update readme
 
 = 0.4.1 - 2024/03/07 =
 * Tested on WP 6.4.3 with success!
